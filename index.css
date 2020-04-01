@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.music-box{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.audio{
+    margin: 0 20px;
+    outline: none;
+}
+.danmaku-box{
+    position: relative;
+    flex: 1;
+}
